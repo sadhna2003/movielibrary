@@ -100,7 +100,7 @@ export const SignUpForm = ({
             />
             <DialogFooter className="w-full">
               <Button type="submit" className="w-full" disabled={isPending}>
-                {isPending ? "Creating..." : "Creat Account"}
+                {isPending ? "Creating..." : "Create Account"}
               </Button>
             </DialogFooter>
             <hr />

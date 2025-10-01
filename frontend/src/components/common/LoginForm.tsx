@@ -50,6 +50,7 @@ export const LoginForm = ({
       toast.success(data.message || "Account created successfully");
     },
     onError: (error: any) => {
+       form.reset();
       toast.error(error.message || "Something went wrong");
     },
   });
